@@ -8,6 +8,7 @@
     text-decoration: none;
     color: white;
     list-style: none;
+    /* border:solid 1px white; */
 }
 
 .container-nav {
@@ -69,8 +70,7 @@ main {
 }
 
 .hero-text {
-    position: absolute;
-    top: 20%;
+    padding-top:10%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -93,33 +93,25 @@ main {
 .home button {
     width: 10rem;
 }
-
 .acerca-de-mi {
-    height: 100dvh;
-    margin-top: 20%;
+    height:100dvh;
+    padding-top:5%;
+    overflow:hidden;
+}
+#left {
+    text-align: start;
+    display:none;
 }
 
-#name {
-    font-weight: bold;
-    font-size: 2rem;
-    border-bottom: 1px white solid;
+#rigth {
+    text-align: end;
+    display:none;
 }
-
-.acerca-de-mi div h4 {
-    font-size: 2rem;
-    width: 60%;
-    text-align: center;
+li {
+    font-size:1.5rem;
 }
-
-.caracteristicas {
-    top: 40dvh;
-    font-size: 1.5rem;
+#caracteristicas {
 }
-
-ul #left {
-    text-align: left;
-}
-
-ul #rigth {
-    text-align: right;
+#img-yo {
+    display:none;
 }

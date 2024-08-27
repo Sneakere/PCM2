@@ -107,11 +107,24 @@ main {
     text-align: end;
     display:none;
 }
+
 li {
     font-size:1.5rem;
 }
-#caracteristicas {
+
+.formulario {
+    background-color:white;
+}
+.formulario h2 {
+    color:black;
+}
+.form-label {
+    color:black;
 }
 #img-yo {
     display:none;
+}
+.redes li img {
+    filter:invert(1) brightness(2);
+    width:2rem
 }
